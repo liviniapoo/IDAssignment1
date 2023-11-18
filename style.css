@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: #201F1E;
+    height: 100px;
+    width: 1260px;
+    justify-content: center;
+    align-content: center;
+}
+.navs{
+    color: white;
+    justify-content: center;
+    align-content: center ;
+}
