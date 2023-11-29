@@ -13,3 +13,23 @@ body{
     justify-content: center;
     align-content: center ;
 }
+
+.containerimage{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.welcometext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+}
+.welcomesubtext{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+}
