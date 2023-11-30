@@ -68,3 +68,29 @@ a:hover{
     transform: translate(-50%,-50%);
     font-size: 25px;
 }
+
+/*aboutpage css*/
+.title{
+    color: white;   
+}
+.wholegrpabout{
+    color:white;
+}
+.aboutDreamimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+.membername{
+    color: white;
+}
+.memberinfo{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    padding-top:     20px;
+}
+.footerabout{
+    color: white;
+}
