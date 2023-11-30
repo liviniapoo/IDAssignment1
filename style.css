@@ -1,19 +1,54 @@
+/*body content*/
 body{
     background-color: black;
 }
+
 .navbar{
     background-color: #201F1E;
-    height: 100px;
-    width: 1260px;
+    height: 70px;
+    width: 100%;
     justify-content: center;
     align-content: center;
+    display: flex;
+    top: 0px;
+    cursor: pointer;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: sticky;
 }
-.navs{
+.pagenav{
+    list-style: none;
+    display: flex;
     color: white;
     justify-content: center;
     align-content: center ;
+    text-decoration: none;
+    padding: 10px;
+}
+.pagename{
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
+/*link colours*/
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: #DBDBDB;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: #C0CE01;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*homepage css*/
 .containerimage{
     position: relative;
     text-align: center;
@@ -21,15 +56,15 @@ body{
 }
 .welcometext{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 75px;
 }
 .welcomesubtext{
     position: absolute;
-    top: 58%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 15px;
+    font-size: 25px;
 }
