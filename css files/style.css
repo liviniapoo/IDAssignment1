@@ -111,6 +111,10 @@ nav ul li a:hover::after{
 }
 
 @media(max-width: 920px){
+    .containerimage img{
+        width: 100%;
+    }
+
     .welcometext img{
         width: 250px;
     }
