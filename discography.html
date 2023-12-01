@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCT Dream's Discography</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <script src="script.js"></script>
+    <link href="cssfiles/style.css" rel="stylesheet" type="text/css"/>
+    <script src="/script.js" defer></script>
 </head>
 <body>
     <!------------Header Section------------>
     <section id="header">
         <div class="navbar">
             <nav>
-                <img alt="nctdreamlogo" src="nctdreamlogo.png" class="logo"/>
+                <img alt="nctdreamlogo" src="images/nctdreamlogo.png" class="logo"/>
                 <ul class="pagenav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About NCT Dream</a></li>
@@ -25,62 +25,79 @@
     </section>
     <!------------End of Header Section------------>
 
+    <!------------Discography Carousel Section------------>
     <h1 class="discographytitle">NCT Dream's Discography</h1>
-    <section class="albumdisco">
-        <h2>Albums</h2>
-        <div id="albumcarousel" class="album-carousel-slide" data-ride="carousel">
-            <ol class="album-carousel-indicators">
-                <li data-target="#albumcarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#albumcarousel" data-slide-to="1"></li>
-                <li data-target="#albumcarousel" data-slide-to="2"></li>
-            </ol>
+    <section aria-label="NCT DREAM's Albums">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <a href="https://music.youtube.com/browse/MPREb_OQXy1UUq5UH" target="_blank">
+                <img src="images/weyoungalbum.jpeg" alt="We Young" class="albumcover"/>
+              </a>
+              <span class="caption">We Young - The 1st Mini Album</span>
+            </li>
 
-            <div class="albumcarousel-inner" role="listbox">
-                <div class="albumitemactive">
-                    <a href="https://music.youtube.com/browse/MPREb_OQXy1UUq5UH">
-                        <img alt="We Young" src="weyoungalbum.jpeg"/>
-                    </a>
-                    <div class="album-carousel-caption">
-                        <h3>We Young</h3>
-                        <p>The 1st Mini Album</p>
-                    </div>
-                </div>
-                <div class="albumitem">
-                    <a href="https://music.youtube.com/browse/MPREb_LEM9ICyHlo1">
-                        <img alt="We Go Up" src="wegoupalbum.jpeg"/>
-                    </a>
-                    <div class="album-carousel-caption">
-                        <h3>We Go Up</h3>
-                        <p>The 2nd Mini Album</p>
-                    </div>
-                </div>
-                <div class="albumitem">
-                    <a href="https://music.youtube.com/browse/MPREb_i9LOF2nfKzx">
-                        <img alt="We Boom" src="weboomalbum.jpeg"/>
-                    </a>
-                    <div class="album-carousel-caption">
-                        <h3>We Boom</h3>
-                        <p>The 3rd Mini Album</p>
-                    </div>
-                </div>
-            </div>
-            <a class="left-carousel-control" href="#albumcarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right-carousel-control" href="#albumcarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <li class="slide">
+              <a href="https://music.youtube.com/browse/MPREb_LEM9ICyHlo1" target="_blank">
+                <img src="images/wegoupalbum.jpeg" alt="We Go Up" class="albumcover"/>
+              </a>
+              <span class="caption">We Go Up - The 2nd Mini Album</span>
+            </li>
+
+            <li class="slide">
+              <a href="https://music.youtube.com/browse/MPREb_i9LOF2nfKzx" target="_blank">
+                <img src="images/weboomalbum.jpeg" alt="We Boom" class="albumcover"/>
+              </a>
+              <span class="caption">We Boom - The 3rd Mini Album</span>
+            </li>
+
+            <li class="slide">
+                <a href="https://music.youtube.com/browse/MPREb_pqiO2jLEWv8" target="_blank">
+                  <img src="images/reloadalbum.jpeg" alt="Reload" class="albumcover"/>
+                </a>
+                <span class="caption">Reload</span>
+              </li>
+
+            <li class="slide">
+              <a href="https://music.youtube.com/browse/MPREb_NdKBlRFyzFu" target="_blank">
+                <img src="images/hellofuturealbum.jpeg" alt="Hello Future" class="albumcover"/>
+              </a>
+              <span class="caption">Hello Future - The 1st Album Repackage</span>
+            </li>
+
+            <li class="slide">
+                <a href="https://music.youtube.com/browse/MPREb_AyHElEoi4oc" target="_blank">
+                  <img src="images/glimoalbum.jpeg" alt="Glitch Mode" class="albumcover"/>
+                </a>
+                <span class="caption">Glitch Mode - The 2nd Album</span>
+              </li>
+
+            <li class="slide">
+              <a href="https://music.youtube.com/browse/MPREb_cC8NID8LrDQ" target="_blank">
+                <img src="images/candyalbum.jpeg" alt="Candy" class="albumcover"/>
+              </a>
+              <span class="caption">Candy - Winter Special Mini Album</span>
+            </li>
+            
+            <li class="slide">
+                <a href="https://music.youtube.com/browse/MPREb_Bb0GaGt4obM" target="_blank">
+                  <img src="images/istjalbum.jpeg" alt="ISTJ" class="albumcover"/>
+                </a>
+                <span class="caption">ISTJ - The 3rd Album</span>
+              </li>
+          </ul>
         </div>
-    </section>
-    
+      </section>
+    <!------------End of Discography Carousel Section------------>
+
     <!------------Footer Section------------>
     <section class="footer">
         <p>Follow NCT DREAM! - 
-          <a href="https://www.instagram.com/nct_dream/" class="socials">Instagram</a>
-          <a href="https://twitter.com/nctsmtown_dream" class="socials">Twitter</a>
-          <a href="https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw" class="socials">Youtube</a>
+          <a href="https://www.instagram.com/nct_dream/" class="socials" target="_blank">Instagram</a>
+          <a href="https://twitter.com/nctsmtown_dream" class="socials" target="_blank">Twitter</a>
+          <a href="https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw" class="socials" target="_blank">Youtube</a>
         </p>
     </section>
     <!------------End of Footer Section------------>
